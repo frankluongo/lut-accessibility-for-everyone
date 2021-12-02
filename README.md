@@ -18,6 +18,9 @@ Course intro
 
 ## 03 Semantic HTML
 
+- Quit using `div` all the time
+- Use `header`, `footer`, `main` and `section` tags
+
 ## 04 Semantic Forms
 
 ## 05 Semantic Contents
