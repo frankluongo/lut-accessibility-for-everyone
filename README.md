@@ -23,6 +23,8 @@ Course intro
 
 ## 04 Semantic Forms
 
+- Whoa. `datalist` is a dope.
+
 ## 05 Semantic Contents
 
 ## 06 Color Contrast
