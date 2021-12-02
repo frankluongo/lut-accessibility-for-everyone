@@ -27,6 +27,10 @@ Course intro
 
 ## 05 Semantic Contents
 
+- Check out [Inclusive Components](https://inclusive-components.design/)
+- Use `dl` (data list), `dt` and `dd` for "stats"
+- Use `details` and `summary` for an accordion
+
 ## 06 Color Contrast
 
 ## 07 Text Alternatives
