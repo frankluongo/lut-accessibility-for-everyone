@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<link rel="stylesheet" href="/css/print.css" />
+	<link rel="shortcut icon" href="/img/favicon.png" />
+
+	{% if env.env == "dev" %}
+		{% include 'partials/dev_styles.html' %}
+	{% endif %}
+
+	{# Meta Info #}
+	<title>{{pagetitle}}</title>
+</head>
+{% set colours = generateColours %}
+
+<body class="{{class}}">
+	{% include 'partials/header.html' %}
+
+	<main>
+		{% block content %}{% endblock %}
+	</main>
+
+	{% include 'partials/footer.html' %}
+	{% block footer %}{% endblock %}
+</body>
+
+</html>

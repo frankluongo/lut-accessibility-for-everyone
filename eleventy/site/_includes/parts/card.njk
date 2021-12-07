@@ -1,0 +1,27 @@
+<article class="recipe_card">
+	<h2>{{ recipe.data.title }}</h2>
+	{% if recipe.data.image %}
+		<img src="{{recipe.data.image}}" />
+	{% else %}
+		<img src="/img/placeholder.png" />
+	{% endif %}
+	{% if recipe.data.categories %}
+		{% set tags = recipe.data.categories %}
+		{% include 'parts/tags.njk' %}
+	{% endif %}
+	<dl>
+		{% if recipe.data.difficulty %}
+			<dt lang="en-AU">
+				{{'/site/src/img/icons/difficulty.svg' | svgContents | safe}}
+			</dt>
+			<dd lang="en-AU">{{ recipe.data.difficulty }}</dd>
+		{% endif %}
+		{% if recipe.data.time %}
+			<dt lang="en-AU">
+				{{'/site/src/img/icons/time.svg' | svgContents | safe}}
+			</dt>
+			<dd>{{ recipe.data.time | time }}</dd>
+		{% endif %}
+	</dl>
+	<a href="{{recipe | slug}}">Read More</a>
+</article>

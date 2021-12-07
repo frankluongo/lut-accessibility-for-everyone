@@ -1,0 +1,36 @@
+{% set pagetitle = title %}
+{% extends 'layouts/main.njk' %}
+
+{% block content %}
+	<article class="recipe">
+		<header>
+			<h1>{{title}}</h1>
+			{% if categories %}
+				<ul class="tags">
+					{% for tag in categories %}
+					<li>#{{tag}}</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+		</header>
+		<section>
+			{% if image %}
+				<img src="{{image}}" />
+			{% endif %}
+			<ul class="ingredients">
+				{% for i in ingredients | ingredients %}
+					<li>
+						{% if i.ingredient %}
+							<span class="quantity">{{i.quantity}}</span> 
+							<span class="unit">{{i.unit}}</span> 
+							<span class="ingredient">{{i.ingredient}}</span>
+						{% else %}
+							<strong>{{i.category}}</strong>
+						{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+		</section>
+		{{content | safe}}
+	</article>
+{% endblock %}

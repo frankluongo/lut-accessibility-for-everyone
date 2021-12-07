@@ -1,0 +1,19 @@
+@use 'sass:map';
+@use '_variables.scss' as var;
+@use '_mixins.scss';
+
+@import './global/index.scss';
+
+@import './partials/header.scss';
+@import './partials/content.scss';
+@import './partials/footer.scss';
+
+@import './layouts/recipes.scss';
+@import './layouts/recipe.scss';
+@import './layouts/planner.scss';
+@import './layouts/pa11y.scss';
+
+@import './parts/card.scss';
+@import './parts/tags.scss';
+@import './parts/pagination.scss';
+@import './parts/search.scss';

@@ -1,0 +1,14 @@
+.sr-only {
+  position: absolute;
+  /* Screen Readers will not read something that has 0px */
+  height: 1px;
+  width: 1px;
+
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+*:focus {
+  outline: 2px solid #ffce03;
+}

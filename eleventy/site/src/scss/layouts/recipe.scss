@@ -1,0 +1,87 @@
+.recipe {
+	padding: 20px;
+	border-radius: 10px;
+	background: var.$white;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+	h1 {
+		margin: 0;
+	}
+
+	header {
+		margin-bottom: 20px;
+
+		&:after {
+			@include mixins.underline(map.get(var.$colours, 'yellow'));
+			content: '';
+			display: block;
+			height: 10px;
+			animation: move 10s linear infinite;
+			background-repeat: no-repeat;
+			background-position: left center;
+			background-size: auto 6px;
+		}
+	}
+
+	img {
+		width: 100%;
+		max-width: 300px;
+		aspect-ratio: 1 / 1;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	ol {
+		li {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media(min-width: 40em) {
+	.recipe {
+		max-width: 900px;
+		margin: 0 auto;
+
+		section {
+			display: flex;
+		}
+
+		.ingredients {
+			margin-right: 20px;
+		}
+
+		img {
+			display: block;
+			flex: 1 1 300px;
+			order: 2;
+			max-width: 50%;
+			object-fit: contain;
+		}
+	}
+}
+
+@media(min-width: 60em) {
+	.recipe {
+		padding: 50px;
+
+		.ingredients {
+			flex-grow: 1;
+		}
+
+		img {
+			flex-grow: 1;
+			flex-shrink: 1;
+		}
+	}
+}
+
+@media(min-width: 70em) {
+	.recipe {
+		header {
+			&:before {
+				background-size: auto 7px;
+			}
+		}
+	}
+}

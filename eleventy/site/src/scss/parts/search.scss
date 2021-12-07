@@ -1,0 +1,42 @@
+form {
+	margin: 20px 0;
+
+	input {
+		display: block;
+		width: 100%;
+		padding: 10px 15px;
+		border: none;
+
+		&[type='search'] {
+			padding-right: 50px;
+			background-image: url('/img/icons/search.png');
+			background-repeat: no-repeat;
+			background-position: 95% center;
+			background-size: auto 70%;
+		}
+	}
+
+	&.search {
+		display: block;
+		max-width: 300px;
+		margin-left: auto;
+	}
+}
+
+@media(min-width: 60em) {
+	form {
+		margin: 40px 0;
+
+		&.search {
+			position: absolute;
+			top: 30px;
+			right: 5vw;
+			width: 300px;
+			margin: 0;
+		}
+	}
+
+	#search_query {
+		padding-right: 320px;
+	}
+}

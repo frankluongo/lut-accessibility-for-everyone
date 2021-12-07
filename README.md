@@ -33,9 +33,22 @@ Course intro
 
 ## 06 Color Contrast
 
+- [Color Contrast](https://contrast-ratio.com/)
+- [Accessible Brand Colors](https://abc.useallfive.com/)
+- [Who Can Use](https://whocanuse.com/)
+- Chrome Dev Tools also includes tools for color contrast and vision impairments
+- The "Rendering" Tab will simulate impairments
+
 ## 07 Text Alternatives
 
+- Always use `alt`
+- An `alt` with an empty string lets the screen reader know that the image is decorative
+- HTML Videos allow inputting of captions
+
 ## 08 CSS Tricks
+
+- You can use `css` to visually hide elements but allow screen readers to see them
+- Do not rely on color alone for hover effects (or focus effects)
 
 ## 09 Testing App
 

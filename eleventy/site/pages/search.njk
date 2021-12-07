@@ -1,0 +1,37 @@
+---
+title: Search
+permalink: /search/
+---
+
+{% set pagetitle = "Search Recipes" %}
+{% set language = "en-AU" %}
+{% extends 'layouts/main.njk' %}
+
+{% set environment = "production.min" %}
+{% if env.env == "dev" %}
+	{% set environment = "development" %}
+{% endif %}
+
+{% block content %}
+	<h1 id="search_query">Search Results</h1>
+	{% include 'parts/search.njk' %}
+	<div id="results">
+		
+	</div>
+	<script>
+		window.localStorage.setItem('recipes', {{collections.recipes | print | dump | safe}});
+	</script>
+{% endblock %}
+
+{% block footer %}
+	<script src="https://unpkg.com/react@17/umd/react.{{environment}}.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.{{environment}}.js" crossorigin></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+	<script 
+		type="text/babel" 
+		src="/js/components/search.js"
+		data-type="module"
+		data-presets="env,react"
+	></script>
+{% endblock %}

@@ -1,0 +1,15 @@
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	pointer-events: none;
+
+	li {
+		margin: 10px 5px;
+		padding: 0;
+		color: var.$pink;
+		text-transform: lowercase;
+	}
+}

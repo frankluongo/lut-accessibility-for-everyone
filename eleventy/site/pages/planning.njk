@@ -1,0 +1,57 @@
+---
+title: Meal Planning
+permalink: /planning/
+---
+
+{% set pagetitle = "Meal Planning" %}
+{% set language = "en-AU" %}
+{% extends 'layouts/main.njk' %}
+
+{% set environment = "production.min" %}
+{% if env.env == "dev" %}
+	{% set environment = "development" %}
+{% endif %}
+
+{% set days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'] %}
+{% set sections = ['Breakfast', 'Lunch', 'Dinner', 'Snacks'] %}
+
+{% block content %}
+	<h1>Meal Planning</h1>
+	<ul class="days">
+		{% for day in days %}
+			<li class="day" data-day="{{day}}">
+				<h2>{{day}}</h2>
+				<ul class="sections">
+					{% for section in sections %}
+						<li class="section" data-section="{{section}}">
+							<h3>{{section}}</h3>
+							<div class="picker"></div>
+						</li>
+					{% endfor %}
+				</ul>
+			</li>
+		{% endfor %}
+	</ul>
+	<script>
+		window.localStorage.setItem('recipes', {{collections.recipes | print | dump | safe}});
+	</script>
+{% endblock %}
+
+{% block footer %}
+	<script src="https://unpkg.com/react@17/umd/react.{{environment}}.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.{{environment}}.js" crossorigin></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script 
+		src="https://cdnjs.cloudflare.com/ajax/libs/react-modal/3.14.3/react-modal.min.js"
+		integrity="sha512-MY2jfK3DBnVzdS2V8MXo5lRtr0mNRroUI9hoLVv2/yL3vrJTam3VzASuKQ96fLEpyYIT4a8o7YgtUs5lPjiLVQ=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer">
+	</script>
+
+	<script 
+		type="text/babel" 
+		src="/js/components/app.js"
+		data-type="module"
+		data-presets="env,react"
+	></script>
+{% endblock %}

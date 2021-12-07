@@ -1,0 +1,45 @@
+---
+permalink: /tests/pa11y/recipe/index.html
+leventyExcludeFromCollections: true
+---
+        {% set pagetitle = "Recipe | Accessibility Report" %}
+        {% set language = "en-AU" %}
+        {% extends 'layouts/main.njk' %}
+        {% block content %}
+        <article class="report">
+		<header>
+		<h1>Accessibility Report for: Amy's Salad</h1>
+		<p>Generated at 03/10/2021, 8:52:46 pm</p>
+		<p>Page URL: <a href="http://localhost:8080/recipes/amys-salad/" target="_blank">http://localhost:8080/recipes/amys-salad/</a></p>
+		</header>
+		<dl>
+			<dt class="error">Errors</dt>
+			<dd class="error">3</dd>
+			<dt class="warning">Warnings</dt>
+			<dd class="warning">0</dd>
+			<dt class="notice">Notices</dt>
+			<dd class="notice">0</dd>
+		</dl>
+		<h2>Issues</h2>
+		<ul class="results">
+			<li class="error">
+					<h3><span class="type">error</span>: The language specified in the lang attribute of the document element does not appear to be well-formed.</h3>
+					<p class="code">WCAG2A Principle3 Guideline3.1 3.1.1 H57 3 Lang</p>
+					<pre class="context">undefined</pre>
+					<p class="selector"></p>
+				</li>,<li class="error">
+					<h3><span class="type">error</span>: Anchor element found with a valid href attribute, but no link content has been supplied.</h3>
+					<p class="code">WCAG2A Principle4 Guideline4.1 4.1.2 H91 A NoContent</p>
+					<pre class="context">&lt;a href="/" class="site-title">
+		&lt;svg width="60" height="60" ...&lt;/a></pre>
+					<p class="selector">html > body > header > a</p>
+				</li>,<li class="error">
+					<h3><span class="type">error</span>: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h3>
+					<p class="code">WCAG2A Principle1 Guideline1.1 1.1.1 H37</p>
+					<pre class="context">&lt;img src="/img/cms/img_20191026_183942_971.jpg"></pre>
+					<p class="selector">html > body > main > article > section > img</p>
+				</li>
+		</ul>
+	</article>
+        {% endblock %}
+    

@@ -1,0 +1,19 @@
+@keyframes timer {
+	0%  {
+		transform: rotate(0);
+	}
+
+	100%  {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes move {
+	0% {
+		background-position: left center;
+	}
+
+	100% {
+		background-position: right center;
+	}
+}

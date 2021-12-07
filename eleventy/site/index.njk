@@ -1,0 +1,28 @@
+---
+title: Recipes
+pagination:
+  data: collections.recipes
+  size: 15
+  alias: recipes
+---
+
+{% set pagetitle = "Recipes" %}
+{% set class = "home" %}
+{% set language = "en-AU" %}
+{% extends 'layouts/main.njk' %}
+
+{% block content %}
+	<h1>Recipes</h1>
+
+	{% include 'parts/search.njk' %}
+
+	<ul class="recipes">
+		{% for recipe in recipes %}
+			<li>
+				{% include 'parts/card.njk' %}
+			</li>
+		{% endfor %}
+	</ul>
+
+	{% include 'parts/pagination.njk' %}
+{% endblock %}

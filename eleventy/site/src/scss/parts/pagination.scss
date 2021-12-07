@@ -1,0 +1,39 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		margin: 10px;
+		padding: 0;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2em;
+		height: 2em;
+		border-radius: 50%;
+		color: var.$grey;
+		text-decoration: none;
+
+		&.current {
+			background: var.$yellow;
+			color: var.$grey;
+		}
+
+		&:hover {
+			background: var.$yellow;
+			color: var.$grey;
+		}
+
+		&.direction {
+			width: auto;
+			padding: 0 2ch;
+			border-radius: 2em;
+		}
+	}
+}
