@@ -1,6 +1,7 @@
 {
-  "name": "a11y_testing",
+  "name": "testing-app",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -9,17 +10,17 @@
     "debug": "DEBUG=Eleventy* npm run start",
     "test:pa11y": "node tests/pa11y"
   },
-  "author": "Amy Kapernick <amy@kapers.dev> (https://amyskapers.dev)",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-img": "^0.9.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@fec/remark-images": "^0.5.0-alpha",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
     "date-fns": "^2.22.1",
     "dotenv": "^10.0.0",
     "eleventy-plugin-svg-contents": "^0.7.0",
-    "file-system": "^2.2.2",
+    "file-system": "^1.2.2",
     "jsdom": "^16.6.0",
     "pa11y": "^6.0.1",
     "path": "^0.12.7",
@@ -43,6 +44,8 @@
     "stylelint-scss": "^3.20.1"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^1.0.0",
     "@fec/eleventy-plugin-remark": "^2.2.1"
   }
 }
