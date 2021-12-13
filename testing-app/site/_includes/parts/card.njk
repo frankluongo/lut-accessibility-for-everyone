@@ -1,7 +1,7 @@
 <article class="recipe_card">
-	<h2>{{ recipe.data.title }}</h2>
+	<h2><a href="{{recipe | slug}}">{{ recipe.data.title }}</a></h2>
 	{% if recipe.data.image %}
-		<img src="{{recipe.data.image}}" />
+		<img src="{{recipe.data.image}}" alt="{{ recipe.data.title }}" />
 	{% else %}
 		<img src="/img/placeholder.png" />
 	{% endif %}
@@ -23,5 +23,4 @@
 			<dd>{{ recipe.data.time | time }}</dd>
 		{% endif %}
 	</dl>
-	<a href="{{recipe | slug}}">Read More</a>
 </article>

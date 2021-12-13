@@ -1,71 +1,76 @@
 .recipe_card {
-	position: relative;
-	padding: 20px;
-	border-radius: 10px;
-	background: var.$white;
-	box-shadow: 0 10px 20px rgba(var.$neutral, 0.19), 0 6px 6px rgba(var.$neutral, 0.23);
-	text-align: center;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  background: var.$white;
+  box-shadow: 0 10px 20px rgba(var.$neutral, 0.19),
+    0 6px 6px rgba(var.$neutral, 0.23);
+  text-align: center;
 
-	&:hover {
-		box-shadow: 0 14px 28px rgba(var.$blue, 0.25), 0 15px 15px rgba(var.$blue, 0.22);
-	}
+  &:hover {
+    box-shadow: 0 14px 28px rgba(var.$blue, 0.25),
+      0 15px 15px rgba(var.$blue, 0.22);
+  }
 
-	h2 {
-		display: -webkit-box;
-		overflow: hidden;
-		font-size: 1.2em;
-		text-overflow: ellipsis;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
+  h2 {
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 
-		a {
-			&:hover {
-				text-decoration: none;
-			}
-		}
-	}
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 
-	img {
-		width: 100%;
-		max-width: 300px;
-		object-fit: cover;
-		object-position: center;
-		aspect-ratio: 1 / 1;
-	}
+  img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1 / 1;
+  }
 
-	dl {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, 1fr);
-		margin: 0;
-	}
+  dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    margin: 0;
+  }
 
-	dt {
-		font-weight: 700;
+  dt {
+    font-weight: 700;
 
-		svg {
-			width: auto;
-			height: 1.5em;
+    svg {
+      width: auto;
+      height: 1.5em;
 
-			@include mixins.draw(100);
+      @include mixins.draw(100);
 
-			.lines {
-				animation: draw_100 5s linear forwards;
-			}
+      .lines {
+        animation: draw_100 5s linear forwards;
+        @media (prefers-reduced-motion) {
+          animation: none;
+        }
+      }
 
-			.hand {
-				transform-origin: 20.5px 21px;
-				animation: timer 10s linear infinite;
-			}
-		}
-	}
+      .hand {
+        transform-origin: 20.5px 21px;
+        animation: timer 10s linear infinite;
+      }
+    }
+  }
 
-	dd {
-		grid-row-start: 2;
-		margin: 0;
-	}
+  dd {
+    grid-row-start: 2;
+    margin: 0;
+  }
 
-	.tags {
-		position: relative;
-		z-index: 5;
-	}
+  .tags {
+    position: relative;
+    z-index: 5;
+  }
 }
