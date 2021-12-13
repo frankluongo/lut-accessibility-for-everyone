@@ -52,13 +52,23 @@ Course intro
 
 ## 09 Testing App
 
+- Install / Set Up App
+
 ## 10 Accessible Animations
+
+- Use `@media (prefers-reduced-motion)` to turn off animations
 
 ## 11 Testing In Development
 
 ## 12 Keeping Focus
 
+- Use `tabindex` to indicate focus
+- Use `React Modal` for Modals since they have already worked all the kinks out
+
 ## 13 Manual Testing
+
+- Use `Wave` Browser Extension
+- Use `aXe` DevTools
 
 ## 14 Screen Readers
 
