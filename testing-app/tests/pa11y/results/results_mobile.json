@@ -1,0 +1,516 @@
+{
+	"documentTitle": "Recipes",
+	"pageUrl": "http://localhost:8080/",
+	"issues": [
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/amys-salad/\">Amy's Salad</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(1) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Vegetarian</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(1) > article > ul > li",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/chocolate-chip-cookies/\">Chocolate Chip Cookies</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(2) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+			"context": "<img src=\"/img/placeholder.png\">",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(2) > article > img",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Dessert</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(2) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Snack</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(2) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Sweet</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(2) > article > ul > li:nth-child(3)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/chorizo-cauliflower-and-potato-hash-with-chimichurri-sauce/\">Chorizo, Cauliflower and Potato...</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(3) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Pork</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(3) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Main</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(3) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/coconut-cupcakes/\">Coconut Cupcakes</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(4) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+			"context": "<img src=\"/img/placeholder.png\">",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(4) > article > img",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Dessert</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(4) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Cupcakes</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(4) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Vegan</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(4) > article > ul > li:nth-child(3)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/cottage-cheese-pancakes/\">Cottage Cheese Pancakes</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(5) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Sweet</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(5) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Snack</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(5) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Dessert</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(5) > article > ul > li:nth-child(3)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Breakfast</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(5) > article > ul > li:nth-child(4)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/crispy-pancetta-and-brussel-sprout-pasta-with-feta/\">Crispy Pancetta and Brussel spr...</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(6) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+			"context": "<img src=\"/img/placeholder.png\">",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(6) > article > img",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Pork</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(6) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Main</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(6) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/easy-rum-balls/\">Easy Rum Balls</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(7) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Christmas</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(7) > article > ul > li",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/fudge/\">Fudge</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(8) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Christmas</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(8) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Dessert</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(8) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/gingerbread-men/\">Gingerbread Men</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(9) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Christmas</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(9) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Dessert</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(9) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/happy-hummus-bowl/\">Happy Hummus Bowl</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(10) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Main</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(10) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Vegan</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(10) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/jacket-potatoes/\">Jacket Potatoes</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(11) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Vegetarian</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(11) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Pork</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(11) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/korean-lamb-rice-bowl-with-avocado-and-lime-mayo/\">Korean Lamb Rice Bowl with Avoc...</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(12) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Lamb</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(12) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Main</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(12) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/lady-flos-pumpkin-scones/\">Lady Flo's Pumpkin Scones</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(13) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Dessert</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(13) > article > ul > li",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/lemon-drizzle-cake/\">Lemon Drizzle Cake</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(14) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+			"context": "<img src=\"/img/placeholder.png\">",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(14) > article > img",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Dessert</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(14) > article > ul > li",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.39:1. Recommendation:  change text colour to #bd5b00.",
+			"context": "<a href=\"/recipes/mediterranean-lamb-bowl-with-tumeric-tomato-bulgur/\">Mediterranean Lamb bowl with tu...</a>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(15) > article > h2 > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+			"context": "<img src=\"/img/placeholder.png\">",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(15) > article > img",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Lamb</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(15) > article > ul > li:nth-child(1)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.94:1. Recommendation:  change text colour to #565656.",
+			"context": "<li>Main</li>",
+			"selector": "html > body > main > ul:nth-child(3) > li:nth-child(15) > article > ul > li:nth-child(2)",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #5b5b5b.",
+			"context": "<a href=\"/\" aria-current=\"page\" class=\"current\">\n\t\t\t\t1\n\t\t\t</a>",
+			"selector": "html > body > main > ul:nth-child(4) > li:nth-child(1) > a",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		}
+	]
+}

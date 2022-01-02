@@ -72,7 +72,11 @@ Course intro
 
 ## 14 Screen Readers
 
+- Use `VoiceOver` on mac to test
+
 ## 15 Intro to Pa11y
+
+[Pa11y](https://pa11y.org/) is an open source accessibility testing tool.
 
 ## 16 Basic Pa11y Tests
 
